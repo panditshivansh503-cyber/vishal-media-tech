@@ -1,0 +1,2 @@
+import { Navbar } from "@/components/site/navbar"; import { Hero } from "@/components/site/hero"; import { Stats,Services,Why,Process,Portfolio,Testimonials,FAQ } from "@/components/site/sections"; import { Contact } from "@/components/site/contact"; import { Footer } from "@/components/site/footer";
+export default function Home(){return <><Navbar/><main><Hero/><Stats/><Services/><Why/><Process/><Portfolio/><Testimonials/><FAQ/><Contact/></main><Footer/></>}
